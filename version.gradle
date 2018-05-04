@@ -1,0 +1,11 @@
+ext {
+    version = [
+            daggerVersion: "2.15",
+    ]
+    dependencies = [
+            "dagger"        : "com.google.dagger:dagger:${version["daggerVersion"]}",
+            "dagger-support": "com.google.dagger:dagger-android-support:${version["daggerVersion"]}",
+            "dagger-compile": "com.google.dagger:dagger-compiler:${version["daggerVersion"]}"
+    ]
+
+}
